@@ -12,7 +12,7 @@ class LIFOCache(BaseCaching):
     removal mechanism when the limit is reached.
     """
     def __init__(self):
-        """Initializes the cache.
+        """Initializes thecache.
         """
         super().__init__()
         self.cache_data = OrderedDict()
@@ -32,4 +32,4 @@ class LIFOCache(BaseCaching):
     def get(self, key):
         """Retrieves an item by key.
         """
-        return self.cache_data.get(key, None
+        return self.cache_data.get(key, None)
