@@ -26,3 +26,4 @@ client.on('connect', async () => {
   console.log('Redis client connected to the server');
   await main();
 });
+
